@@ -1,0 +1,6 @@
+Create Automation test cases using PatternObject Model from SeleniumBase Framework.
+ Execute Automation test cases from TestNG xml files
+. Provide the execution status to Leads on dailybasis. Raise defects for failed test cases and participate
+daily review Global Sunrise call with Technical lead& Onsite Manger. Ability to modify test case according to the new
+requirement changes. Ensure resolved defects are retested and closedon time. Documented and tracked Defects with JIRA & IBMClearquest tool.
+
