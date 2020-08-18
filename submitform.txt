@@ -1,0 +1,47 @@
+package linkedinTraining;
+
+import static org.junit.Assert.assertEquals;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import pages.Confirmationpage;
+import pages.Formpage;
+
+public class SubmitForm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+				// browser setup
+		System.setProperty("webdriver.chrome.driver", "G:\\drivers\\chromedriver.exe");
+
+					//creating webdriver instance
+		ChromeDriver driver= new ChromeDriver();
+		
+				//launch url
+		driver.get("https://formy-project.herokuapp.com/form");
+		
+          driver.manage().window().maximize();  
+        
+          
+        Formpage formpage= new Formpage();   
+       Formpage.SubmitForm(driver);  
+       
+     		      
+       
+       Confirmationpage confirmationpage= new Confirmationpage();
+       Confirmationpage.waitForAlertBanner(driver);
+         		          
+                        
+     //ASSERTION TO MEET YES OR NO       
+        assertEquals("The form was sucessfully submitted!", Confirmationpage.getAlertBannerText(driver));
+	}
+
+ 
+}
+
+
