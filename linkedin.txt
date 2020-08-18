@@ -1,0 +1,35 @@
+linkedin courses
+
+methodology+principle
+continous proof of correctness
+catches error early
+
+
+unit testing
+intergertion testing
+User interface testing
+
+maven
+selenium webdriver
+junit
+
+selenium supports different 
+langauages--c,ruby,phython,java , javascript
+platforms--macOS,windows,linux
+browsers--chrome,firefox,ie/edge, Safari
+
+Seleniumhq.org/downloads
+
+
+
+
+
+formy website  to learn more selenium compenets
+
+
+
+
+
+
+
+
